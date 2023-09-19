@@ -1,0 +1,6 @@
+name: PandaSideBarCore
+version: 1.0.0
+description: Core Plugin For Variable Control
+authors: [Closeplanet2]
+main: com.closeplanet2.pandasidebarcore.PandaSideBarCore
+api-version: 1.20
