@@ -1,7 +1,6 @@
 package com.closeplanet2.pandasidebarcore.CONFIGS;
 
 import com.closeplanet2.pandaconfigcore.INTERFACE.PandaClass;
-import org.apache.maven.model.Build;
 import org.bukkit.scoreboard.Criteria;
 import org.bukkit.scoreboard.DisplaySlot;
 import org.bukkit.scoreboard.Scoreboard;

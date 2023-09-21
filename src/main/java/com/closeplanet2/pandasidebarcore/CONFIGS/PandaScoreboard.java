@@ -3,7 +3,6 @@ package com.closeplanet2.pandasidebarcore.CONFIGS;
 import com.closeplanet2.pandaconfigcore.INTERFACE.IgnoreSave;
 import com.closeplanet2.pandaconfigcore.INTERFACE.PandaConfig;
 import com.closeplanet2.pandasidebarcore.PandaSideBarCore;
-import org.apache.maven.model.Build;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.scoreboard.*;
