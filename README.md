@@ -1,6 +1,6 @@
 <h2 align="center">
 <br>
-<img src="images/PandaBossBarCore.png" alt="Panda Boss Bar Core" width="600">
+<img src="images/PandaSideBarCore.png" alt="Panda Side Bar Bar Core" width="600">
 <br>
 </h2>
 
