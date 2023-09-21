@@ -1,0 +1,7 @@
+name: PandaSideBarCore
+version: 1.0.0
+description: Side Bar Core!
+authors: [Closeplanet2]
+main: com.closeplanet2.pandasidebarcore.PandaSideBarCore
+api-version: 1.20
+depend: [PandaSpigotCore]

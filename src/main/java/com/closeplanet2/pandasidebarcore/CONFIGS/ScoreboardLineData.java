@@ -11,17 +11,15 @@ public class ScoreboardLineData implements PandaClass {
     public Class<?> CLASS_TYPE() {return ScoreboardLineData.class;}
 
     public Integer lineNumber = 0;
-    public String teamName = "";
     public String text = "";
 
     public ScoreboardLineData(){}
-    public ScoreboardLineData(String teamName, String text){
-        this.teamName = teamName;
+    public ScoreboardLineData(String text){
         this.text = text;
     }
 
     public void CreateLine(Scoreboard scoreboard, int teamCount){
-        var team = scoreboard.registerNewTeam(teamName);
+        var team = scoreboard.registerNewTeam("Line" + lineNumber);
         StringBuilder teamText = new StringBuilder();
         teamText.append("§r".repeat(Math.max(0, teamCount)));
         team.addEntry(teamText.toString());
@@ -30,7 +28,7 @@ public class ScoreboardLineData implements PandaClass {
     }
 
     public void UpdateLine(Scoreboard scoreboard){
-        var team = scoreboard.getTeam(teamName);
+        var team = scoreboard.getTeam("Line" + lineNumber);
         if(team == null) return;
         team.setPrefix(text);
     }

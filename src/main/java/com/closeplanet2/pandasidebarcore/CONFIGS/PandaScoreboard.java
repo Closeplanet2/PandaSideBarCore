@@ -29,6 +29,10 @@ public class PandaScoreboard implements PandaConfig {
     @IgnoreSave
     public int currentPosition = -1;
 
+    public void RemovePlayer(Player... players) {
+        for(var player : players) player.setScoreboard(Bukkit.getScoreboardManager().getMainScoreboard());
+    }
+
     public PandaScoreboard(){}
     public PandaScoreboard(String scoreboardID){
         this.scoreboardID = scoreboardID;
